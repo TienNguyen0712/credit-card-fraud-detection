@@ -18,8 +18,9 @@
 
 ## 🏗️ Business Understanding (Hiểu doanh nghiệp)
 
-- Một giao dịch được xem là một bản hợp đồng đối với doanh nghiệp:
-- Tuy nhiên nếu nó làm giả hoặc bị lợi dung nó sẽ được xem là một giao dịch gian lận. Điều này ảnh hưởng nặng nề tới doanh thu của một doanh nghiệp
+Một giao dịch được xem là một bản hợp đồng đối với doanh nghiệp:
+
+Tuy nhiên nếu nó làm giả hoặc bị lợi dung nó sẽ được xem là một giao dịch gian lận. Điều này ảnh hưởng nặng nề tới doanh thu của một doanh nghiệp
   - **_Dự đoán sai giao dịch gian lận:_** Thiệt hại từ giao dịch, kẻ xấu có thể lợi dụng để chuộc lợi cho bản thân, khách hàng mất lòng tin dẫn đến chi phí khách hàng cao
     - Gian lận không là gian lận: Mất chi phí của một khách hàng, tuy nhiên không ảnh hưởng đến lợi ích lâu dài
   - **_Dự đoán đúng giao dịch gian lận:_** Khắc phục thiệt hại, cũng như loại bỏ các thành phần gây xâm phạm đến quyền lợi người tiêu dùng 
