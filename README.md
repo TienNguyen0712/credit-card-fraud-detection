@@ -7,9 +7,9 @@
 
 ## 📌 Project Overview (Tổng quan dự án)
 
-Vấn đề: 
-Thách thức
-Mục tiêu 
+- **Vấn đề:**
+- **Thách thức:**
+- **Mục tiêu:** 
 
 ---
 
@@ -19,17 +19,15 @@ Mục tiêu
 
 ## 📂 Dataset Description (Mô tả bộ dữ liệu)
 
-- **Tên:** Telco Customer Churn 
-- **Nguồn:** Public dataset ([Kaggle – dữ liệu nghiên cứu học thuật](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
-- **Số dòng:** gồm **~7043 khách hàng**
-- **Số cột:** 21
+- **Tên:** Credit Card Fraud Detection 
+- **Nguồn:** Public dataset ([Kaggle – dữ liệu nghiên cứu học thuật](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+- **Số dòng:** gồm **~173000 khách hàng**
+- **Số cột:** 31
 - **Đối tượng:** **Khả năng rời bỏ** của khách hàng
 ### Một số thuộc tính quan trọng
-- **Thông tin cá nhân:** `customerID`, `gender`, `SeniorCitizen`
-- **Thông tin gia đình:** `tenure`, `Partner`, `Dependents`
-- **Thông tin xã hội:** `InternetService`, `OnlineSecurity`, `OnlineBackup`, `DeviceProtection`, `TechSupport`
-- **Thông tin liên lạc:** `PhoneService`, `MultipleLines`
-- **Thông tin hợp đồng:** `Contract`, `PaperlessBilling`, `PaymentMethod`, `MonthlyCharges`, `TotalCharges`, `Churn`, `StreamingTV`, `StreamingMovies`
+- **Thông tin giao dịch:** `V0` -> `V28`
+- **Thông tin thời gian:** `Time`, `Amount`
+- **Thông tin giao dịch** `Class`
 
 ---
 
