@@ -49,21 +49,7 @@
 
 ### 🔹 Baseline Model
 
-Logistic Regression
-
-Advanced Models
-
-Random Forest
-
-XGBoost
-
 ### 🔹 Why Tree-Based?
-
-Handle non-linearity
-
-Robust to feature scaling
-
-Often strong baseline for tabular data
 
 --- 
 
