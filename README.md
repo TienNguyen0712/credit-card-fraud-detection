@@ -80,3 +80,10 @@ Often strong baseline for tabular data
 ---
 
 ## 🔮Future Improvements
+
+---
+
+## 👨‍🎓 Author (Tác giả)
+
+- Sản phẩm **là bài làm gốc**
+- Tên: **Nguyễn Đăng Tiến**
