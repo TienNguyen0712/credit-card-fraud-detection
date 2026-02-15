@@ -7,13 +7,23 @@
 
 ## 📌 Project Overview (Tổng quan dự án)
 
-- **Vấn đề:**
-- **Thách thức:**
-- **Mục tiêu:** 
+- **Vấn đề:** Sự phát triển không ngừng của các ngành thương mại, sàn điện tử đòi hỏi con người phải minh bạch tinh vi hơn trong các hợp đồng giao dịch, việc xảy ra các gian lận là điều hiển nhiên khi không có bát kỳ một hệ thống nào có thể nhận diện chính xác. Bởi tính phức tạp của giao dịch cũng như quy mô triển khai khá lớn. 
+- **Thách thức:** Lợi dụng những kẽ hở đó mà những người xấu sử dụng chúng để thực hiện những hành động phạm pháp như:
+  - Sửa đổi giao dịch
+  - Tạo nhiều giao dịch giả
+  - Tạo giao dịch với tên người đặt hàng khác nhằm lợi dụng
+- **Mục tiêu:** Xây dựng một mô hình phân biệt được các giao dịch có dấu hiệu giả và demo triển khai trong thực tế
 
 ---
 
 ## 🏗️ Business Understanding (Hiểu doanh nghiệp)
+
+- Một giao dịch được xem là một bản hợp đồng đối với doanh nghiệp:
+- Tuy nhiên nếu nó làm giả hoặc bị lợi dung nó sẽ được xem là một giao dịch gian lận. Điều này ảnh hưởng nặng nề tới doanh thu của một doanh nghiệp
+  - **_Dự đoán sai giao dịch gian lận:_** Thiệt hại từ giao dịch, kẻ xấu có thể lợi dụng để chuộc lợi cho bản thân, khách hàng mất lòng tin dẫn đến chi phí khách hàng cao
+    - Gian lận không là gian lận: Mất chi phí của một khách hàng, tuy nhiên không ảnh hưởng đến lợi ích lâu dài
+  - **_Dự đoán đúng giao dịch gian lận:_** Khắc phục thiệt hại, cũng như loại bỏ các thành phần gây xâm phạm đến quyền lợi người tiêu dùng 
+    - Gian lận là gian lận: Giảm chi phí khắc phục sự cố, bảo toàn quyền lợi khách hàng, gia tăng lòng tin khách hàng
 
 --- 
 
