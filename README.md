@@ -5,7 +5,7 @@
 
 # 🛡 Credit Card Fraud Detection – End-to-End ML Pipeline
 
-## 📌 Project Overview (Tổng quan dự án)
+## 🎯 Project Overview (Tổng quan dự án)
 
 - **Vấn đề:** Sự phát triển không ngừng của các ngành thương mại, sàn điện tử đòi hỏi con người phải minh bạch tinh vi hơn trong các hợp đồng giao dịch, việc xảy ra các gian lận là điều hiển nhiên khi không có bát kỳ một hệ thống nào có thể nhận diện chính xác. Bởi tính phức tạp của giao dịch cũng như quy mô triển khai khá lớn. 
 - **Thách thức:** Lợi dụng những kẽ hở đó mà những người xấu sử dụng chúng để thực hiện những hành động phạm pháp như:
