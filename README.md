@@ -34,7 +34,7 @@ Tuy nhiên nếu nó làm giả hoặc bị lợi dung nó sẽ được xem là
 - **Nguồn:** Public dataset ([Kaggle – dữ liệu nghiên cứu học thuật](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 - **Số dòng:** gồm **~284.807 khách hàng**
 - **Số cột:** 31
-- **Đối tượng:** **Khả năng rời bỏ** của khách hàng
+- **Đối tượng:** **Khả năng** một giao dịch được xem là gian lận
 ### Một số thuộc tính quan trọng
 - **Thông tin giao dịch:** `V1` -> `V28`
 - **Thông tin thời gian:** `Time`, `Amount`
@@ -42,7 +42,7 @@ Tuy nhiên nếu nó làm giả hoặc bị lợi dung nó sẽ được xem là
 
 ---
 
-## 🧠 Data Science Perspective (Phương pháp khoa học dữ liệu)
+## 🧠 Data Science Perspective (Góc nhìn Khoa học dữ liệu)
 
 ### Challenges (Thách thức)
 
@@ -70,7 +70,7 @@ Tuy nhiên nếu nó làm giả hoặc bị lợi dung nó sẽ được xem là
 
 ---
 
-##  🏗 System Architecture (Kỹ thuật hệ thống)
+##  🏗 System Architecture (Kiến trúc hệ thống)
  
 --- 
 
@@ -97,19 +97,29 @@ credit-fraud-system/
 
 ---
 
-## 🚀 API Deployment
+## 🚀 API Deployment (Triển khai API)
 
 ---
 
-## 🔎 Production Considerations
+## 🔎 Production Considerations (Các yếu tố cần xem xét trong sản phảm)
 
 --- 
 
-## 🔑 Key Learnings
+## 🔑 Key Learnings (Học hỏi)
+
+- Thử nghiệm các phương pháp sử lý dữ liệu mất cân bằng nặng
+- Tối ưu ngưỡng sao cho khả nặng nhận diện giao dịch cao mà còn hạn chế giao dịch báo động giả
+- Thiết kê một ML-pipeline
+- Xây dựng hướng sản phầm API
+- Chuẩn bị huấn luyện trực tuyến lẫn ngoại tuyến
 
 ---
 
-## 🔮Future Improvements
+## 🔮Future Improvements (Cải thiện trong tương lai)
+
+- Thêm model drift 
+- Thêm CI/CD
+- Deploy sử dụng Kubernetes 
 
 ---
 
