@@ -32,40 +32,76 @@ Tuy nhiên nếu nó làm giả hoặc bị lợi dung nó sẽ được xem là
 
 - **Tên:** Credit Card Fraud Detection 
 - **Nguồn:** Public dataset ([Kaggle – dữ liệu nghiên cứu học thuật](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
-- **Số dòng:** gồm **~173000 khách hàng**
+- **Số dòng:** gồm **~284.807 khách hàng**
 - **Số cột:** 31
 - **Đối tượng:** **Khả năng rời bỏ** của khách hàng
 ### Một số thuộc tính quan trọng
-- **Thông tin giao dịch:** `V0` -> `V28`
+- **Thông tin giao dịch:** `V1` -> `V28`
 - **Thông tin thời gian:** `Time`, `Amount`
 - **Thông tin giao dịch** `Class`
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA) - Khám phá dữ liệu 
+## 🧠 Data Science Perspective (Phương pháp khoa học dữ liệu)
 
---- 
+### Challenges (Thách thức)
 
-## 🧠 Modeling Strategy (Lựa chọn mô hình)
+- Dữ liệu bị mất cân bằng cực kỳ nghiêm trọng
+- Đặc trưng dã được PCA để đảm bảo tính bảo mật
 
-### 🔹 Baseline Model
+### Modeling Strategy (Phương pháp chọn mô hình)
 
+- Logistic Regressio (baseline)
+- Random Forest
+- Class imbalance handling (Xử lý mất cân bằng dữ liệu)
+  - SMOTE
+  - Class weight
+- Threshold tuning (Tối ưu ngưỡng)
+ - Maximize F1
+ - Minimize loss    
 
 --- 
 
 ## 📈 Evaluation Metrics
 
+- Recall & Precision 
+- PR-AUC (Do dữ liệu bị mất cân bằng)
+- Confusion Maxtix
+
 ---
 
-## ✔️ Model Performance
-
+##  🏗 System Architecture (Kỹ thuật hệ thống)
+ 
 --- 
+
+## Project Structure (Cấu trúc dự án)
+
+```
+credit-fraud-system/
+│
+├── configs/
+│   └── config.yaml
+│
+├── src/
+│   ├── data/
+│   ├── features/
+│   ├── models/
+│   ├── api/
+│   └── utils/
+│
+├── tests/
+├── Dockerfile
+├── requirements.txt
+└── README.md
+```
+
+---
 
 ## 🚀 API Deployment
 
 ---
 
-## ▶️ How to Run
+## 🔎 Production Considerations
 
 --- 
 
