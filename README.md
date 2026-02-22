@@ -74,7 +74,7 @@ Tuy nhiên nếu nó làm giả hoặc bị lợi dung nó sẽ được xem là
  
 --- 
 
-## Project Structure (Cấu trúc dự án)
+## 🗂️ Project Structure (Cấu trúc dự án)
 
 ```
 credit-fraud-system/
