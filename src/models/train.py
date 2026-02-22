@@ -1,5 +1,3 @@
-# src/models/train.py
-
 import joblib
 from sklearn.linear_model import LogisticRegression
 
@@ -21,4 +19,5 @@ def train():
 
 if __name__ == "__main__":
     train()
+
 
