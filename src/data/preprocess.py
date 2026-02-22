@@ -2,7 +2,7 @@
 
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import RobustScaler
 
 
 def load_data(path: str):
@@ -10,19 +10,17 @@ def load_data(path: str):
     return df
 
 
-def split_data(df, test_size=0.2, random_state=42):
-    X = df.drop("Class", axis=1)
-    y = df["Class"]
+def split_scale_data_(df, test_size=0.2, random_state=42):
+    # Tách dữ liệu 
+    features = df.drop(columns=["Class", "Time", "Amount"])
+    target = df["Class"]
+    # Scale dữ liệu 
+    scaler = RobustScaler()
+    features['Amount_log'] = scaler.fit_transform(features['Amount_log'].values.reshape(-1, 1))
 
-    return train_test_split(X, y,
+    return train_test_split(features, target,
                             test_size=test_size,
                             stratify=y,
                             random_state=random_state)
 
 
-def scale_data(X_train, X_test):
-    scaler = StandardScaler()
-    X_train_scaled = scaler.fit_transform(X_train)
-    X_test_scaled = scaler.transform(X_test)
-
-    return X_train_scaled, X_test_scaled, scaler
