@@ -38,4 +38,6 @@ def evaluate():
 
 if __name__ == "__main__":
     evaluate()
+    plot_pr_curve()
+
 
