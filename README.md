@@ -79,20 +79,46 @@ Tuy nhiên nếu nó làm giả hoặc bị lợi dung nó sẽ được xem là
 ```
 credit-fraud-system/
 │
-├── configs/
-│   └── config.yaml
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── external/
+│
+├── notebooks/
+│   ├── 01_eda.ipynb
+│   ├── 02_feature_engineering.ipynb
+│   └── 03_modeling.ipynb
 │
 ├── src/
-│   ├── data/
-│   ├── features/
-│   ├── models/
-│   ├── api/
-│   └── utils/
+│   ├── data/
+│   │   ├── load_data.py
+│   │   └── preprocess.py
+│   │
+│   ├── features/
+│   │   └── build_features.py
+│   │
+│   ├── models/
+│   │   ├── train.py
+│   │   ├── predict.py
+│   │   └── evaluate.py
+│   │
+│   └── utils/
+│       └── helpers.py
+│
+├── experiments/
+│   └── experiment_logs/
+│
+├── models/
+│   └── saved_models/
+│
+├── configs/
+│   └── config.yaml
 │
 ├── tests/
-├── Dockerfile
+│
 ├── requirements.txt
 └── README.md
+
 ```
 
 ---
