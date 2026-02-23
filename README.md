@@ -91,18 +91,22 @@ credit-fraud-system/
 │
 ├── src/
 │   ├── data/
+│   │   ├── __init__.py
 │   │   ├── load_data.py
 │   │   └── preprocess.py
 │   │
 │   ├── features/
+│   │   ├── __init__.py
 │   │   └── build_features.py
 │   │
 │   ├── models/
+│   │   ├── __init__.py
 │   │   ├── train.py
 │   │   ├── predict.py
 │   │   └── evaluate.py
 │   │
 │   └── utils/
+│   │   ├── __init__.py
 │       └── helpers.py
 │
 ├── experiments/
