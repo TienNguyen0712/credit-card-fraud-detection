@@ -106,7 +106,7 @@ credit-fraud-system/
 │   │   └── evaluate.py
 │   │
 │   └── utils/
-│   │   ├── __init__.py
+│       ├── __init__.py
 │       └── helpers.py
 │
 ├── experiments/
@@ -120,6 +120,7 @@ credit-fraud-system/
 │
 ├── tests/
 │
+├── .gitignore
 ├── requirements.txt
 └── README.md
 
