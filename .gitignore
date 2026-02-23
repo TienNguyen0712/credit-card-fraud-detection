@@ -1,1 +1,13 @@
+data/raw/
+data/processed/
+data/external/
 
+models/saved_models/*.joblib
+models/saved_models/*.pkl
+
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+
+experiments/experiment_logs/
