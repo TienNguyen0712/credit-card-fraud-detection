@@ -81,8 +81,7 @@ credit-fraud-system/
 │
 ├── data/
 │   ├── raw/
-│   ├── processed/
-│   └── external/
+│   └── processed/
 │
 ├── notebooks/
 │   ├── 01_eda.ipynb
@@ -90,25 +89,28 @@ credit-fraud-system/
 │   └── 03_modeling.ipynb
 │
 ├── src/
+|   |
 │   ├── data/
-│   │   ├── __init__.py
 │   │   ├── load_data.py
-│   │   └── preprocess.py
+│   │   └── split_data.py
 │   │
 │   ├── features/
-│   │   ├── __init__.py
-│   │   └── build_features.py
+│   │   ├── build_features.py
+│   │   └── preprocess.py
 │   │
 │   ├── models/
-│   │   ├── __init__.py
-│   │   ├── train.py
-│   │   ├── predict.py
-│   │   └── evaluate.py
+│   │   └── model_factory.py
 │   │
-│   └── utils/
-│       ├── __init__.py
-│       └── helpers.py
-│
+│   ├── utils/
+│   |   ├── evaluate.py
+│   |   ├── threshold.py
+│   |   └── helpers.py
+|   |
+│   └── __init__.py
+|
+├── predict.py
+├── train.py
+|      
 ├── experiments/
 │   └── experiment_logs/
 │
@@ -116,6 +118,13 @@ credit-fraud-system/
 │   └── saved_models/
 │
 ├── configs/
+│   ├── data/
+|   |   └── default.yaml
+│   |
+│   ├── model/
+│   |   ├── logistic_regression.yaml
+│   |   ├── random_forest.yaml
+|   |   └── xgboost.yaml
 │   └── config.yaml
 │
 ├── tests/
