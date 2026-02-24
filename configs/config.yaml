@@ -16,22 +16,3 @@ features:
   time_col: Time
   log_amount_col: Amount_Log
   hour_col: Hour
-
-# Tham số tiền xử lý (Preprocessing)
-preprocessing:
-  test_size: 0.2
-  random_state: 42
-  target_column: "Class"
-  features_to_scale: ["Amount_Log", "Hour"]
-  imbalance_strategy: "none"
-
-# Tham số mô hình (Hyperparameters)
-model:
-  name: "Logistic Regression"
-  params:
-    max_iter: 1000
-    class_weight: "balanced"
-
-evaluation:
-  classification_threshold: 0.3
-
