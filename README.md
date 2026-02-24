@@ -86,7 +86,7 @@ credit-fraud-system/
 ├── notebooks/
 │   ├── 01_eda.ipynb
 │   ├── 02_preprocessing_and_baseline_model.ipynb
-│   └── 03_modeling.ipynb
+│   └── 03_threshold_error_analysis.ipynb
 │
 ├── src/
 |   |
