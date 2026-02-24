@@ -77,59 +77,60 @@ Tuy nhiên nếu nó làm giả hoặc bị lợi dung nó sẽ được xem là
 ## 🗂️ Project Structure (Cấu trúc dự án)
 
 ```
-credit-fraud-system/
+credit-card-fraud-detection/
 │
 ├── data/
-│   ├── raw/
-│   └── processed/
+│   ├── raw/
+│   └── processed/
 │
 ├── notebooks/
-│   ├── 01_eda.ipynb
-│   ├── 02_preprocessing_and_baseline_model.ipynb
-│   └── 03_threshold_error_analysis.ipynb
+│   ├── 01_eda.ipynb
+│   ├── 02_preprocessing_and_baseline_model.ipynb
+│   └── 03_threshold_error_analysis.ipynb
 │
 ├── src/
-|   |
-│   ├── data/
-│   │   ├── load_data.py
-│   │   └── split_data.py
-│   │
-│   ├── features/
-│   │   ├── build_features.py
-│   │   └── preprocess.py
-│   │
-│   ├── models/
-│   │   └── model_factory.py
-│   │
-│   ├── utils/
-│   |   ├── evaluate.py
-│   |   ├── threshold.py
-│   |   └── helpers.py
-|   |
-│   └── __init__.py
-|
-├── predict.py
+│   ├── data/
+│   │   ├── load_data.py
+│   │   └── split_data.py
+│   │
+│   ├── features/
+│   │   ├── build_features.py
+│   │   └── preprocess.py
+│   │
+│   ├── models/
+│   │   ├── model_factory.py
+│   │   └── trainer.py
+│   │
+│   ├── utils/
+│   │   ├── evaluate.py
+│   │   ├── threshold.py
+│   │   ├── logger.py
+│   │   └── config_loader.py
+│   │
+│   └── __init__.py
+│
 ├── train.py
-|      
+├── predict.py
+│
 ├── experiments/
-│   └── experiment_logs/
+│   └── experiment_logs/
 │
 ├── models/
-│   └── saved_models/
+│   └── saved_models/
 │
 ├── configs/
-│   ├── data/
-|   |   └── default.yaml
-│   |
-│   ├── model/
-│   |   ├── logistic_regression.yaml
-│   |   ├── random_forest.yaml
-|   |   └── xgboost.yaml
-│   └── config.yaml
+│   ├── data/
+│   │   └── default.yaml
+│   │
+│   ├── model/
+│   │   ├── logistic_regression.yaml
+│   │   ├── random_forest.yaml
+│   │   └── xgboost.yaml
+│   │
+│   ├── tuning.yaml
+│   └── config.yaml
 │
 ├── tests/
-│
-├── .gitignore
 ├── requirements.txt
 └── README.md
 
