@@ -1,17 +1,28 @@
-# Cấu hình đường dẫn dữ liệu
-paths:
+# Cấu hình các mô hình
+defaults:
+  - model: logistic_regression 
+  - experiment: base
+
+# Cấu hình đường dẫn
+data:
   raw_data: "data/raw/creditcard.csv"
-  processed_data: "data/processed/cleaned_data.csv"
-  model_path: "models/saved_models/fraud_model.joblib"
-  scaler_path: "models/saved_models/scaler.joblib"
-  metrics_path: "experiments/experiment_logs/metrics.json"
+  processed_data: "data/processed/cleaned_data.c
+  test_size: 0.2
+  random_state: 42
+  target: Class
+
+features:
+  amount_col: Amount
+  time_col: Time
+  log_amount_col: Amount_Log
+  hour_col: Hour
 
 # Tham số tiền xử lý (Preprocessing)
 preprocessing:
   test_size: 0.2
   random_state: 42
   target_column: "Class"
-  features_to_scale: ["Amount", "Time"]
+  features_to_scale: ["Amount_Log", "Hour"]
   imbalance_strategy: "none"
 
 # Tham số mô hình (Hyperparameters)
@@ -23,3 +34,4 @@ model:
 
 evaluation:
   classification_threshold: 0.3
+
