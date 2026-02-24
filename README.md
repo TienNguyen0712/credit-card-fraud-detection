@@ -85,7 +85,7 @@ credit-fraud-system/
 │
 ├── notebooks/
 │   ├── 01_eda.ipynb
-│   ├── 02_feature_engineering.ipynb
+│   ├── 02_preprocessing_and_baseline_model.ipynb
 │   └── 03_modeling.ipynb
 │
 ├── src/
