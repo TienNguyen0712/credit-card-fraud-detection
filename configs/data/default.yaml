@@ -1,0 +1,6 @@
+path: "data/raw/creditcard.csv"
+# processed_path: data/processed/processed.csv
+
+target_column: Class
+
+# random_state: 42
