@@ -1,0 +1,13 @@
+# Core Data Science
+pandas
+numpy
+matplotlib
+scikit-learn
+
+# MLOp & Configuration 
+mlflow
+hydra-core
+omegaconf
+
+# XGBoost
+xgboost
