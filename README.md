@@ -104,8 +104,7 @@ credit-card-fraud-detection/
 │   ├── utils/
 │   │   ├── evaluate.py
 │   │   ├── threshold.py
-│   │   ├── logger.py
-│   │   └── config_loader.py
+│   │   └── helper.py
 │   │
 │   └── __init__.py
 │
@@ -121,7 +120,19 @@ credit-card-fraud-detection/
 ├── configs/
 │   ├── data/
 │   │   └── default.yaml
-│   │
+|   |
+│   ├── features/
+│   │   └── default.yaml
+|   | 
+│   ├── mlflow/
+│   │   └── default.yaml
+|   |
+│   ├── paths/
+│   │   └── default.yaml
+|   |
+│   ├── training/
+│   │   └── default.yaml
+|   |
 │   ├── model/
 │   │   ├── logistic_regression.yaml
 │   │   ├── random_forest.yaml
