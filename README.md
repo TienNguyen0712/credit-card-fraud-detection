@@ -21,7 +21,7 @@
 ## 📂 Dataset Description
 
 - **Name:** Credit Card Fraud Detection 
-- **Source:** Public dataset ([Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+- **Source:** Public dataset ([Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud))
 - **Total transactions:** about **~284.807**
 - **Total target:** 30 anonymized features (PCA transformed) + `Time` + `Amount`
 - **Target:** `Class` (1 = fraud, 0 = unfraud)
