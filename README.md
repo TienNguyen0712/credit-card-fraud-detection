@@ -204,5 +204,5 @@ python predict.py --input sample.csv
 
 ## 👨‍🎓 Author
 
-- Name: **Nguyễn Đăng Tiến**
+- Name: **Tien Dang Nguyen**
 - Role: **AI Engineer Candidate**
