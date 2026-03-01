@@ -3,6 +3,8 @@
 ![Machine Learning](https://img.shields.io/badge/Field-Machine%20Learning-purple)
 ![Scikit-learn](https://img.shields.io/badge/scikit--learn-ML-yellow)
 
+[Tiếng Việt](#README_vi.md)
+
 # 🛡 Credit Card Fraud Detection – End-to-End ML Pipeline
 
 ## 🎯 Project Overview
@@ -180,7 +182,7 @@ python predict.py --input sample.csv
 
 ---
 
-## 🔎 Production Considerations (Các yếu tố cần xem xét trong sản phảm)
+## 🔎 Production Considerations
 
 - Config-driven pipeline
 - Modular architecture
@@ -191,7 +193,7 @@ python predict.py --input sample.csv
 
 ---
 
-## 🔮Future Improvements (Cải thiện trong tương lai)
+## 🔮Future Improvements
 - Add model drift detection
 - CI/CD pipeline
 - Dockerization
@@ -200,7 +202,7 @@ python predict.py --input sample.csv
 
 ---
 
-## 👨‍🎓 Author (Tác giả)
+## 👨‍🎓 Author
 
 - Name: **Nguyễn Đăng Tiến**
 - Role: **AI Engineer Candidate**
