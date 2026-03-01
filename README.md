@@ -3,7 +3,7 @@
 ![Machine Learning](https://img.shields.io/badge/Field-Machine%20Learning-purple)
 ![Scikit-learn](https://img.shields.io/badge/scikit--learn-ML-yellow)
 
-[Tiếng Việt](#README_vi.md)
+[Tiếng Việt](README_vi.md)
 
 # 🛡 Credit Card Fraud Detection – End-to-End ML Pipeline
 
