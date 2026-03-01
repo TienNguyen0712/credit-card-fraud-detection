@@ -162,7 +162,7 @@ credit-card-fraud-detection/
 ## 🚀 How to Run
 
 ```bash
-git clone https://github.com/yourusername/credit-card-fraud-detection
+git clone https://github.com/TienNguyen0712/credit-card-fraud-detection
 cd credit-card-fraud-detection
 pip install -r requirements.txt
 
