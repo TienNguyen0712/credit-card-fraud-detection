@@ -12,7 +12,7 @@
   - Sửa đổi giao dịch
   - Tạo nhiều giao dịch giả
   - Tạo giao dịch với tên người đặt hàng khác nhằm lợi dụng
-- **Mục tiêu:** Xây dựng một mô hình phân biệt được các giao dịch có dấu hiệu giả và demo triển khai trong thực tế
+- **Mục tiêu:** Xây dựng một mô hình phân biệt được các giao dịch có dấu hiệu giả và demo triển khai trong thực tế sử dụng kỹ thuật học có giám sát
 
 ---
 
