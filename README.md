@@ -3,12 +3,12 @@
 ![Machine Learning](https://img.shields.io/badge/Field-Machine%20Learning-purple)
 ![Scikit-learn](https://img.shields.io/badge/scikit--learn-ML-yellow)
 
-[Tiếng Việt](README_vi.md)
+[Tiếng Việt](README_vi.md)[Tiếng Anh]
 
 # 🛡 Credit Card Fraud Detection – End-to-End ML Pipeline
 
 ## 🎯 Project Overview
-
+ 
 - **Problem:** Financial transactions are highly vulnerable to fraud, especially in large-scale e-commerce systems. 
 - **Challenges:** Fraud detection presents three keys challenges:
   - Extreme class imbalance (~0.17% fraud)
